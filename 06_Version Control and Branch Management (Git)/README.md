@@ -1,0 +1,3 @@
+- Git merupakan salah satu version control system yang digunakan untuk mengembangkan sofware para developer secara bersama - sama.
+- pembuatan branch baru diluar main/master branch merupakan hal yang penting agar lebih rapi dan mudah untuk melihat pembaharuan yang terjadi.
+- conflict terjadi ketika dua branch memberikan perubahan di file yang sama dengan line yang sama. dapat diselesaikan dengan memilih salah satu perubahan, tidak jadi melakukan perubahan, atau memilih kedua perubahan tersebut.
