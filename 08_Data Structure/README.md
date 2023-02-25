@@ -21,8 +21,8 @@ Data Structure
 
 - Map
   map sedikit berbeda karena dia memiliki Key dan Value yang mana Key nya selalu unique tidak bisa sama
-  ex :salary_b := map[string]int{}
-      salary_b ["surabaya"] = 1 //menambah key n value di map
+  1. ex :salary_b := map[string]int{}
+   salary_b ["surabaya"] = 1 //menambah key n value di map
       delete(salary_b["surabaya"]) //menghapus value menggunakan key
       looping map :
       for key, value := range salary_b {
