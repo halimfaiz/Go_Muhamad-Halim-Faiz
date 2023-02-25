@@ -68,5 +68,5 @@ Data Structure
         func main (){
             fmt.Println(sum(2))
             }
-        maka akan outputnya akan menjadi 4
+        maka akan outputnya akan menjadi 4.
 
