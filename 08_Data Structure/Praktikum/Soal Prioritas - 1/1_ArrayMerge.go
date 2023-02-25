@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func ArrayMerge(arrayA, arrayB []string) []string {
-	data := make(map[string]bool) // map menampung data arrayA & arrayB
-	merge := []string{}           // slice untuk menampung hasil
+	data := map[string]bool{} // map menampung data arrayA & arrayB
+	merge := []string{}       // slice untuk menampung hasil
 
 	for _, value := range arrayA {
 		if _, ada := data[value]; ada == false {

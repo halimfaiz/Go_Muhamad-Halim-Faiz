@@ -4,7 +4,7 @@ import "fmt"
 
 func Mapping(slice []string) map[string]int {
 	// map 'total' untuk menampung key dan jumlah value
-	total := make(map[string]int)
+	total := map[string]int{}
 	// perulangan untuk mengisi key dan jumlah value
 	for _, v := range slice {
 		total[v] += 1
