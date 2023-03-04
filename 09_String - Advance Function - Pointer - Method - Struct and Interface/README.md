@@ -10,11 +10,13 @@
 
     c.) Contains
 
-        Digunakan untuk membandingkan apakah satu string merupakan bagian dari string lain. atau apakah satu string dengan character panjang mengandung semua character pada string yang lebih pendek.
+       Digunakan untuk membandingkan apakah satu string merupakan bagian dari string lain.
+       atau apakah satu string dengan character panjang mengandung semua character pada string yang lebih pendek.
 
     d.) Replace
 
-        Penggunaan replace untuk menggantikan character suatu string menjadi character baru atau pun menghapusnya menjadi string kosong.
+        Penggunaan replace untuk menggantikan character suatu string menjadi character baru
+        ataupun menghapusnya menjadi string kosong.
 
         contoh :
 
