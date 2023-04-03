@@ -246,6 +246,131 @@
 					"response": []
 				}
 			]
+		},
+		{
+			"name": "Blog",
+			"item": [
+				{
+					"name": "GET",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/blogs",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"blogs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "GetById",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "localhost:8000/blogs/2",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"blogs",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "POST",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 3,\r\n    \"judul\": \"buku pedoman 03\",\r\n    \"konten\": \"berisi informasi dan petunjuk yang bermanfaat seri ke-III\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8000/blogs",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"blogs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "PUT",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 3,\r\n    \"judul\": \"buku sakti 01\",\r\n    \"konten\": \"berisi informasi dan ritual kuno\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8000/blogs/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"blogs",
+								"3"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "DELETE",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"user_id\": 3,\r\n    \"judul\": \"buku sakti 01\",\r\n    \"konten\": \"berisi informasi dan ritual kuno\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "localhost:8000/blogs/3",
+							"host": [
+								"localhost"
+							],
+							"port": "8000",
+							"path": [
+								"blogs",
+								"3"
+							]
+						}
+					},
+					"response": []
+				}
+			]
 		}
 	]
 }

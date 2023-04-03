@@ -22,5 +22,12 @@ func New() *echo.Echo {
 	e.POST("/books", controllers.CreateBookController)
 	e.DELETE("/books/:id", controllers.DeleteBookController)
 	e.PUT("/books/:id", controllers.UpdateBookController)
+
+	//Blog
+	e.GET("/blogs", controllers.GetBlogsController)
+	e.GET("/blogs/:id", controllers.GetBlogController)
+	e.POST("/blogs", controllers.CreateBlogController)
+	e.DELETE("/blogs/:id", controllers.DeleteBlogController)
+	e.PUT("/blogs/:id", controllers.UpdateBlogController)
 	return e
 }

@@ -11,14 +11,14 @@ var (
 )
 
 func GetUsers() (interface{}, error) {
-	if e := config.DB.Find(&users).Error; e != nil {
+	if e := config.DB.Preload("Blogs").Find(&users).Error; e != nil {
 		return nil, e
 	}
 	return users, nil
 }
 
 func GetUserById(id int) (interface{}, error) {
-	if e := config.DB.Find(&user, id).Error; e != nil {
+	if e := config.DB.Preload("Blogs").Find(&user, id).Error; e != nil {
 		return nil, e
 	}
 	return user, nil
